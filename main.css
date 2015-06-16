@@ -1,0 +1,126 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    font: bold 20px Tahoma;
+}
+h2{
+    font: bold 30px Tahoma;
+}
+header,section,footer,aside,nav,article,hgroup{
+    display:block;
+}
+b:link {
+    text-decoration: blink;
+    color: rgb(64, 119, 144);
+}
+b:visited {
+    text-decoration: none;
+    color: rgb(64, 119, 144);
+}
+b:hover {
+    text-decoration: blink;
+    color: rgb(64, 119, 144);
+}
+b:active {
+    text-decoration: under;
+    color: rgb(64, 119, 144);
+}
+body{
+    background-image: url("woodBackground.jpg");
+    background-repeat: repeat;
+    text-align:center;
+}
+#big_wrapper{
+    width:1000px;
+    margin: 20px auto;
+    text-align:left;
+}
+#top_header{
+
+    background: #E431CD;
+    border: 1px white;
+    padding: 20px;
+    border-radius: 25px;
+}
+#top_menu{
+    background: rgb(255, 255, 255);
+    color:white;
+}
+#top_menu li{
+    display:inline-block;
+    list-style:none;
+    padding: 5px;
+    font: bold 14px Tahoma;
+}
+#main_section{
+    float: left;
+    width: 660px;
+    margin: 30px; //*720 pix....280 pixels are left to use*//
+}
+#side_news{
+
+    float: left;
+    width: 220px;
+    margin: 20px 0px;
+    padding: 30px;
+    background-color:rgb(32, 130, 173);
+    border-radius: 25px;
+    box-shadow: 10px 10px 5px #888888;
+}
+#the_footer{
+    clear:both;
+    text-align:center;
+    padding: 20px;
+    background-color: solid green;
+    border-top: 10px solid purple;
+    font-size: 200%;
+
+}
+article{
+    background-color: #fffbcc;
+    border: outset #2A7E6B 10px;
+    padding: 20px;
+    margin-bottom: 15px
+}
+section.a{
+    background-color: #fffbcc;
+    border: 1px solid red;
+    padding: 20px;
+    margin-bottom: 15px
+}
+ul{
+    padding: 0;
+    list-style: none;
+    border-radius: 25px;
+}
+ul li{
+    float: left;
+    width: 100px;
+    text-align: center;
+    border-radius: 25px;
+    /*line-height: 21px;*/
+}
+ul li a{
+    display: block;
+    padding: 5px 10px;
+    color: #333;
+    background: #448465;
+    text-decoration: none;
+    border-radius: 25px;
+}
+ul li a:hover{
+    color: #fff;
+    background: #939393;
+    border-radius: 25px;
+}
+ul li ul{
+    display: none;
+    border-radius: 25px;
+}
+ul li:hover ul{
+    display: block; /* display the dropdown */
+    border-radius: 25px;
+    overflow:
+}
